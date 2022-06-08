@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans&display=swap');
+body{
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  color: black;
+  text-align: center;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+img{
+  border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    
+  
+}
+    
+
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#welcome{
+     padding:70px;
+    text-align:center;
+}
+h1,h2{
+  font-family: 'Amatic SC', cursive;
+  font-size:60px;
+}
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size:30px;
+    
+}
+h2{
+  font-size:60px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+    padding:20px;
+    font-size: 16px;
+}
+    
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+}
+.menu a{
+    
+    color:black !important;
+}
+
+
+.link{
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+   .link:hover{
+    background-color:beige;
+}
+
+#Mywork a, #References a{
+    font-size: 30px;
+    
+}
+
+.button {
+  background-color: #bd39ff;
+  font-family: 'Courgette', cursive;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+}
+a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.btn {
+  
+  background-image: url("https://i.ibb.co/YRsGcTR/IMG-5133.jpg");
+  background-size: cover;
+  background-position: below;
+  font-size: 26px;
+  width: 700;
+  border-radius: 900px;
+  height: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: 'Courgette', cursive;
+  color: #ffffff;
+}
+.btn:hover
+{
+  width: 600;
+  height: 500;
+}
